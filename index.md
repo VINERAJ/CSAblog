@@ -3,9 +3,13 @@ layout: default
 title: Student Blog
 ---
 
+![A beautiful picture!](title.png "Me")
 
 ## Vinay's Blog
 Hey! I'm a CSA student!
+
+## About me
+Hello! I'm a senior, and I am currently 17 years old. I like to read, play tennis, and of course, code!
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
