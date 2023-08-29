@@ -1,9 +1,6 @@
 ---
-toc: true
-comments: true
-layout: post
-title: Week 2 Java Project
-description: Working with Java
+layout: default
+title: Week 2 Java
 courses: { csa: {week: 2} }
 type: tangibles
 ---
