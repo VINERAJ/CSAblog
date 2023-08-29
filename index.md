@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Student Blog
+courses: { csa: {week: 0} }
+type: tangibles
 ---
 
 ![A beautiful picture!](title.png "Me")
