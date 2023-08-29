@@ -1,6 +1,9 @@
 ---
-layout: default
+toc: false
+comments: false
+layout: post
 title: Week 2 Java
+description: OOP
 courses: { csa: {week: 2} }
 type: tangibles
 ---
