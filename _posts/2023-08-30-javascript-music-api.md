@@ -10,7 +10,6 @@ type: ccc
 ---
 
 
-<!-- {% include nav_home.html %} -->
 
 <!-- Input box and button for filter -->
 <div>
