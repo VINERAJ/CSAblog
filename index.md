@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Student Blog
-courses: { csa: {week: 0} }
+courses: { compsci: {week: 0} }
 type: tangibles
 ---
 

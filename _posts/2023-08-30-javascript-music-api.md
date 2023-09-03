@@ -1,14 +1,12 @@
 ---
-title: JS Itunes API
+toc: true
 comments: true
-layout: default
+layout: post
+title: JS Itunes API
 description: API's are a primary source for obtaining data from the internet.  There is imformation in API's for almost any interest.
-permalink: /frontend/home_table
-categories: [C7.0]
-courses: { csse: {week: 6}, csp: {week: 4, categories: [2.C]}, csa: {week: 1} }
-type: ccc
+courses: { compsci: {week: 3} }
+type: hacks
 ---
-
 
 
 <!-- Input box and button for filter -->

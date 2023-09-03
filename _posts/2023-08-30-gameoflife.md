@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Game of Life
 description: A remix of Conway's game of life using timer, onclick and algorithms. 
-courses: { csa: {week: 2} }
+courses: { compsci: {week: 2} }
 type: hacks
 ---
 
