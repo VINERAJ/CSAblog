@@ -5,7 +5,7 @@ courses: { compsci: {week: 0} }
 type: tangibles
 ---
 
-![A beautiful picture!](title.png "Me")
+<img src="/CSAblog/images/logo.png" alt="drawing" width="200"/>
 
 ## Vinay's Blog
 Hey! I'm a CSA student!
