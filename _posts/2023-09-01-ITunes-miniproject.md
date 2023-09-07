@@ -1,4 +1,4 @@
----
+<!-- ---
 toc: false
 comments: false
 layout: post
@@ -6,7 +6,7 @@ title: ITunes genre project
 description: User can type in a song, program will return songs in that genre
 courses: { compsci: {week: 3} }
 type: tangibles
----
+--- -->
 
 <div>
   <input type="text" id="filterInput" placeholder="Enter song">

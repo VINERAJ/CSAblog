@@ -1,11 +1,12 @@
-<!-- ---
+---
 toc: true
 comments: true
 layout: post
-title: JS Tunes Notes
-courses: { csa: {week: 2} }
+title: JS Itunes API
+description: API's are a primary source for obtaining data from the internet.  There is imformation in API's for almost any interest.
+courses: { compsci: {week: 3} }
 type: hacks
---- -->
+---
 
 
 <!-- Input box and button for filter -->
