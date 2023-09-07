@@ -24,12 +24,34 @@ type: tangibles
             vertical-align: middle;
             margin-right: 10px;
         }
+        .search {
+            border-radius: 10px;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+        .search-button {
+            border-radius: 10px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font: oxygen;
+        }
+        .similar-button {
+                        border-radius: 10px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font: oxygen;
+        }
     </style>
 </head>
 <body>
     <h1>iTunes Search API</h1>
-    <input type="text" id="search" placeholder="Search">
-    <button id="search-button">Search</button>
+    <input type="text" class="search" id="search" placeholder="Search">
+    <button class="search-button" id="search-button">Search</button>
     <div id="results"></div>
     <script>
     function searchItunesByGenre(genre, callback) {
@@ -76,7 +98,7 @@ type: tangibles
                             $result.append('<br> <span>' + result.collectionName + '</span><br>');
                             $result.append('<span>' + result.artistName + '</span><br>');
                             $result.append('<span>' + result.primaryGenreName + '</span><br>');
-                            var $findSimilarButton = $('<button>Find Similar Results</button>');
+                            var $findSimilarButton = $('<button class="similar-button">Find Similar Results</button>');
                             $findSimilarButton.click(function() {
                                 var genre = result.primaryGenreName;
                                 var genreSearch = searchItunesByGenre(genre, displayResults);
