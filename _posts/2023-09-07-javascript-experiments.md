@@ -10,10 +10,15 @@ type: tangibles
 <head>
     <title>Javascript Experiments</title>
     <table></table>
-    <script>
-        var create = document.createElement('BUTTON')
-    </script>
 </head>
+
+<body>
+    <script>
+        var create = document.createElement('BUTTON');
+        var body = document.getElementsByTagName("body")[0];
+        body.appendChild(create);
+    </script>
+</body>
 
 <script>
     let people = [
