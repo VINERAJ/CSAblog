@@ -13,12 +13,7 @@ type: tangibles
 </head>
 
 <body>
-    <script>
-        var create = document.createElement('BUTTON');
-        create.innerText = 'Add element to list'
-        var body = document.getElementsByTagName("body")[0];
-        body.appendChild(create);
-    </script>
+    <button class="add-button" id="add-button"></button>
 </body>
 
 <script>
