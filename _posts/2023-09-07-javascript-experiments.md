@@ -13,12 +13,13 @@ type: tangibles
 </head>
 
 <body>
-    <button class="add-button" id="add-button"></button>
+    <button class="add-button" id="add-button" style="height:20px;width:100px">Add a value</button>
 </body>
 
 <script>
     let people = [
         { name: "Vinay", age: "17", grade: "12" },
+        {name: "Colin", age: "16", grade: "11"}
     ];
 
     function generateTable(table, data) {
@@ -40,7 +41,13 @@ type: tangibles
     }
     }
 
+    // function createBox() {
+    //     <body><input type="text" class="search" id="search" placeholder="Search"></body>
+    // }
+
     let table = document.querySelector("table");
     let data = Object.keys(people[0]);
     generateTable(table, data);
+
+    
 </script>
