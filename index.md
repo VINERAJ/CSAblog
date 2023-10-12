@@ -12,7 +12,7 @@ Hey! I'm a CSA student!
 
 ## About me
 Hello! I'm a senior, and I am currently 17 years old. I like to read, play tennis, and of course, code!
-[Here](https://vineraj.github.io/CSAblog/compsci) is my journal.
+[Here](https://vineraj.github.io/CSAblog/compsci) is my journal. And [Here](https://github.com/VINERAJ/CSAblog) is my GitHub page.
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 

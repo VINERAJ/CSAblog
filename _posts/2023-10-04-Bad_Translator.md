@@ -24,5 +24,6 @@ type: tangibles
             document.getElementById("new-word-button").click(newWord());
         }
         newWord();
+        "new-word-button".onclick = function(){newWord()};
     </script>
 </body>
