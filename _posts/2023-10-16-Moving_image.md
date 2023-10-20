@@ -12,18 +12,28 @@ type: tangibles
     <title>Moving Image</title>
 </head>
 <body>
-    <img src="/CSAblog/images/logo.png" id = "image" alt="drawing" width="200"/>
     <button class="move-button" id="move-button" style="height:20px;width:150px">Move the image!</button>
+    <button class="return-button" id="return-button" style="height:20px;width:150px">Start over</button>
+    <img src="/CSAblog/images/logo.png" id = "image" alt="drawing" width="200"/>
     <script>
         function move() {
-            var running = "true";
             var x = document.getElementById("image").offsetLeft;
             var y = document.getElementById("image").offsetTop;
-            document.getElementById("image").style.marginLeft = (x+5) + 'px';
-            document.getElementById("image").style.marginTop = (y+5) + 'px';
+            randX = Math.floor(Math.random()*0.25);
+            randY = Math.floor(Math.random()*0.0000000000000025);
+            document.getElementById("image").style.marginLeft = (x+randX) + 'px';
+            document.getElementById("image").style.marginTop = (y+randY) + 'px';
+            // await new Promise(r => setTimeout(r, 2));
         }
-        while (running=="true") {
+        function backToStart() {
+            document.getElementById("image").style.marginLeft = '10px';
+            document.getElementById("image").style.marginTop = '10px';
+        }
+        document.getElementById("move-button").onclick = function(){
             move();
-        }
+        };
+        document.getElementById("return-button").onclick = function(){
+            backToStart();
+        };
     </script>
 </body>
