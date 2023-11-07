@@ -19,8 +19,8 @@ type: tangibles
         function move() {
             var x = document.getElementById("image").offsetLeft;
             var y = document.getElementById("image").offsetTop;
-            randX = Math.floor(Math.random()*0.25);
-            randY = Math.floor(Math.random()*0.0000000000000025);
+            randX = Math.floor(Math.random());
+            randY = Math.floor(Math.random());
             document.getElementById("image").style.marginLeft = (x+randX) + 'px';
             document.getElementById("image").style.marginTop = (y+randY) + 'px';
             // await new Promise(r => setTimeout(r, 2));
